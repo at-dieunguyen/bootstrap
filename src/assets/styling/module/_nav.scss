@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-link {
+  padding: .5rem;
+}
+.disabled {
+  color: #6c757d;
+  // pointer-events: none;
+  cursor: default;
+}

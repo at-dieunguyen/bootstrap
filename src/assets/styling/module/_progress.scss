@@ -1,0 +1,17 @@
+.progress {
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 1.5rem;
+  background-color: #e9ecef;
+  border-radius: .5rem;
+}
+.progress-bar {
+  height: 1.5rem;
+  background-color: #007bff;
+  border-top-left-radius: .5rem;
+  border-bottom-left-radius: .5rem;
+}
+.progress:last-child .progress-bar{
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+}

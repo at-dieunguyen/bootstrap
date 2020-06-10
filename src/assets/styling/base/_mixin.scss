@@ -1,0 +1,13 @@
+@mixin button-variant($background, $color, $border-color) {
+  background-color: $background;
+  color: $color;
+  border-color: $background;
+}
+@mixin alert-variant($color, $background, $border) {
+  color: $color;
+  background-color: $background;
+  border-color: $border;
+}
+@mixin spinner-variant($color) {
+  color: $color;
+}

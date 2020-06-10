@@ -1,0 +1,27 @@
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.form-group {
+  margin-bottom: 1rem;
+  padding: 0 .25rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .5rem;
+  border-radius: .2rem;
+  height: 2.37rem;
+  border: 1px solid #ced4da;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.15);
+}
+small {
+  font-size: 80%;
+  color: #9c9a9a;
+}
+.form-check {
+  margin-right: .5rem;
+}
