@@ -1,0 +1,32 @@
+@import '../base/all';
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.alert-primary {
+  @include alert-variant($primary-alert-color, $primary-alert-background, $primary-alert-border)
+}
+.alert-secondary {
+  @include alert-variant($secondary-alert-color, $secondary-alert-background, $secondary-alert-border)
+}
+.alert-success {
+  @include alert-variant($success-alert-color, $success-alert-background, $success-alert-border)
+}
+.alert-danger {
+  @include alert-variant($danger-alert-color, $danger-alert-background, $danger-alert-border)
+}
+.alert-warning {
+  @include alert-variant($warning-alert-color, $warning-alert-background, $warning-alert-border)
+}
+.alert-info {
+  @include alert-variant($info-alert-color, $info-alert-background, $info-alert-border)
+}
+.alert-light {
+  @include alert-variant($light-alert-color, $light-alert-background, $light-alert-border)
+}
+.alert-dark {
+  @include alert-variant($dark-alert-color, $dark-alert-background, $dark-alert-border)
+}

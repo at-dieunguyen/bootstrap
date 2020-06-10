@@ -1,0 +1,14 @@
+.modal-dialog {
+  max-width: 500px;
+  border: 1px solid grey;
+  border-radius: .2rem;
+}
+.modal-title, .modal-text {
+  padding: 1rem;
+  border-bottom: 1px solid #dee2e6;
+}
+.modal-footer {
+  padding: .75rem;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,21 @@
+.pagination {
+  display: flex;
+  border-radius: .25rem;
+}
+.page-link {
+  display: block;
+  padding: .5rem .75rem;
+  line-height: 1.25;
+  border: 1px solid #dee2e6;
+  &:hover {
+    background-color: #e9ecef;
+  }
+}
+.page-item:first-child .page-link{
+  border-top-left-radius: .25rem;
+  border-bottom-left-radius: .25rem;
+}
+.page-item:last-child .page-link{
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
